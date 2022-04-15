@@ -47,3 +47,24 @@ h1{
 .text-center {
     text-align: center!important;
 }
+.card-columns {
+    column-count: 3;
+    column-gap: 1.25rem;
+    orphans: 1;
+    widows: 1;
+}
+.cd{
+    margin-bottom: 360px;
+}
+.dp{
+    margin-bottom:700px;
+}
+@media (min-width: 576px)
+{
+    .card-columns {
+        column-count: 3;
+        column-gap: 1.25rem;
+        orphans: 1;
+        widows: 1;
+    }
+}
