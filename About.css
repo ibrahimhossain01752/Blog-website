@@ -1,0 +1,15 @@
+.nav-img{
+    width:63px;
+    height:32px;
+}
+
+.container-fluid {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.display-4{
+    font-weight: 600;
+}
