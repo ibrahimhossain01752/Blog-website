@@ -515,7 +515,7 @@ article, aside, figcaption, figure, footer, header, main, nav, section {
         border-radius: 0px;
     }
     .chat-bar-collapsible {
-        position: fixed;
+        /* position: fixed; */
         bottom: 0;
         right: 0;
         width: 100%;
@@ -527,3 +527,4 @@ article, aside, figcaption, figure, footer, header, main, nav, section {
         border-radius: 0px;
     }
 }
+

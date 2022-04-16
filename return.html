@@ -17,70 +17,64 @@
 <body>
    
 
-    <header class="fixed-top">
-        <nav class="navbar navbar-expand-md navbar-light bg-white d-flex justify-content-around mx-1">
-        <div class="order-1">
-        <a class="navbar-brand" href="/">
-        <img src="https://samriddhiconsulting.com/assets/images/Samriddhi_Consulting_Logo.svg" style="height: 2rem;" class="" alt="Samriddhi Consulting Logo" width="auto">
-        </a>
-        </div>
-        <div class="d-flex align-items-baseline justify-content-end order-md-3 order-2">
-        <a href="Tel:+91-124-3541505" class="mx-1">
-        <svg class="bi text-muted mx-1" fill="currentColor" style="height:1.75rem; width:1.75rem; ">
-        <use xlink:href="/assets/icons/bootstrap-icons.svg#telephone"></use>
-        </svg>
-        </a>
-        <form class="form-inline" data-hs-cf-bound="true">
-        <button class="mx-1 btn btn-link" data-toggle="modal" data-target="#exampleModalLong">
-        <svg class="bi text-muted mx-1" fill="currentColor" style="height:1.75rem; width:1.75rem; ">
-        <use xlink:href="/assets/icons/bootstrap-icons.svg#search"></use>
-        </svg>
-        </button>
-        </form>
-        <button class="navbar-toggler mx-1" type="button" data-toggle="collapse" data-target="#mainHeaderToggler" aria-controls="mainHeaderToggler" aria-expanded="false" aria-label="Toggle navigation" style="height: 3rem;">
-        <span class="navbar-toggler-icon"></span>
-        </button>
-        </div>
-        <div class="collapse navbar-collapse order-3 order-md-2" id="mainHeaderToggler">
-        <ul class="navbar-nav w-100 nav-tabs nav-fill ">
-        <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle " data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Capabilities</a>
-        <div class="dropdown-menu">
-        <a href="/Design.html" class="dropdown-item"> Instructional Design</a>
-        <a href="/Organaisation.html" class="dropdown-item"> Organisation Development</a>
-        <a href="/user_experience" class="dropdown-item"> User Experience</a>
-        </div>
-        </li>
-        <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle " data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Products</a>
-        <div class="dropdown-menu">
-        <a href="/instructional_design/curriculum_design" class="dropdown-item"> Curriculum Design</a>
-        <a href="/instructional_design/jitl" class="dropdown-item"> Jit_L</a>
-        <a href="/instructional_design/learning_architechture" class="dropdown-item"> Learning Architecture</a>
-        <a href="/instructional_design/storyboard" class="dropdown-item"> Storyboard</a>
-        </div>
-        </li>
-        <li class="nav-item">
-        <a href="/about.html" class="nav-link " style="text-align: center;"> About Us</a>
-        </li>
-        <li class="nav-item">
-        <a href="/blogs.html" class="nav-link " style="text-align: center;"> Blogs</a>
-        </li>
-        </ul>
-        </div>
-        </nav>
-        </header>
    
-    <!-- Organisation Development -->
-    <section class="section2 mt-5">
-        <nav class="navbar navbar-light bg-light container">
+    <section>
+        <nav class="navbar navbar-expand-lg navbar-light ">
             <div class="container-fluid">
               <a class="navbar-brand" href="#">
-                  <img class="second-nav" src="https://samriddhiconsulting.com/assets/images/Samriddhi_Icon.svg"/>
+                  <img class="nav-img" src="https://samriddhiconsulting.com/assets/images/Samriddhi_Consulting_Logo.svg"/>
               </a>
-              <h5 class="ms-1">| Organisation Development</h5>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle mx-5 bbb" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" >
+                          Capabilities
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <li><a class="dropdown-item" href="Design.html">Instructional Design</a></li>
+                          <li><a class="dropdown-item" href="./Organaisation.html">Organisation Development</a></li>
+                          <!-- <li><hr class="dropdown-divider"></li> -->
+                          <li><a class="dropdown-item" href="./User.html">User Experience</a></li>
+                        </ul>
+                      </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle mx-5" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Products
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <li><a class="dropdown-item" href="./Curriculum.html">Curriculum Design</a></li>
+                          <li><a class="dropdown-item" href="./Jit.html">Jit_L</a></li>
+                          <!-- <li><hr class="dropdown-divider"></li> -->
+                          <li><a class="dropdown-item" href="./Learning.html">Learning Architecture</a></li>
+                          <li><a class="dropdown-item" href="./Story.html">Storyboard</a></li>
+                        </ul>
+                      </li>
+                 
+                  <li class="nav-item">
+                    <a class="nav-link mx-5" href="./About.html">About us</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link mx-5" href="./Blog.html">Blog</a>
+                  </li>
+                 
+                  <!-- <li class="nav-item">
+                    <a class="nav-link disabled">Disabled</a>
+                  </li> -->
+                </ul>
+                <!-- <form class="d-flex">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form> -->
+               
+              </div>
+              
             </div>
+           
           </nav>
+          <hr class="w-100"/>
     </section>
     <!-- The Great Manager -->
     <article class="mx-md-4 px-md-4 text-black pt-2 mx-auto">
